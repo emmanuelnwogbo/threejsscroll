@@ -69,6 +69,11 @@ module.exports = {
                 ]
             },
 
+            {
+                test: /\.glsl$/,
+                loader: 'webpack-glsl-loader'
+            },
+
             // Fonts
             {
                 test: /\.(ttf|eot|woff|woff2)$/,

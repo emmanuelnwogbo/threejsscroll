@@ -24,6 +24,7 @@ body
     height: 100px;
     position: absolute;
     background: red;
+    z-index: 100;
 }
 
 .n {
@@ -32,6 +33,10 @@ body
     height: 10px;
     width: 200px;
     background: #000;
+}
+
+.n img {
+     
 }
 
 .n1 {
@@ -48,4 +53,21 @@ body
 
 .n4 {
     top: 500px;
+}
+
+
+canvas{
+    display: block;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+
+    background: #000000;
 }
